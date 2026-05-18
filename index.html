@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,14 +13,14 @@
     --surface: #0d1117;
     --surface2: #131920;
     --surface3: #1a2330;
-    --border: rgba(255,255,255,0.06);
-    --border-active: rgba(0,210,160,0.3);
+    --border: rgba(255,255,255,0.10);
+    --border-active: rgba(0,210,160,0.4);
     --accent: #00d2a0;
     --accent2: #0095ff;
     --accent3: #ff6b35;
-    --text: #e8edf2;
-    --text-dim: #6b7a8d;
-    --text-muted: #3a4555;
+    --text: #f0f4f8;
+    --text-dim: #c8d4e0;
+    --text-muted: #8a9ab0;
     --red: #ff4757;
     --orange: #ffa502;
     --yellow: #ffd32a;
@@ -126,11 +127,8 @@
     border: none;
     color: var(--text-dim);
     font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 8px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
     transition: all 0.2s;
   }
 
@@ -182,12 +180,12 @@
   .section-title {
     font-family: 'Syne', sans-serif;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 17px;
     color: var(--text);
   }
 
   .section-sub {
-    font-size: 10px;
+    font-size: 11px;
     color: var(--text-muted);
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -201,7 +199,7 @@
 
   .ran-scale label {
     display: block;
-    font-size: 11px;
+    font-size: 12px;
     color: var(--text-dim);
     letter-spacing: 1px;
     margin-bottom: 12px;
@@ -221,7 +219,7 @@
     border-radius: 6px;
     color: var(--text-muted);
     font-family: 'DM Mono', monospace;
-    font-size: 13px;
+    font-size: 15px;
     cursor: pointer;
     transition: all 0.15s;
     position: relative;
@@ -238,7 +236,7 @@
   .scale-labels {
     display: flex;
     justify-content: space-between;
-    font-size: 9px;
+    font-size: 10px;
     color: var(--text-muted);
     letter-spacing: 1px;
   }
@@ -308,7 +306,7 @@
   .check-item.checked .check-mark { display: block; }
 
   .check-text {
-    font-size: 12px;
+    font-size: 13px;
     color: var(--text-dim);
     line-height: 1.4;
     transition: color 0.2s;
@@ -318,7 +316,7 @@
 
   /* Textarea */
   .field-label {
-    font-size: 10px;
+    font-size: 11px;
     color: var(--text-muted);
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -333,7 +331,7 @@
     border-radius: 10px;
     color: var(--text);
     font-family: 'DM Mono', monospace;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.6;
     padding: 14px;
     resize: none;
@@ -360,7 +358,7 @@
     border-radius: 10px;
     color: var(--text-dim);
     font-family: 'DM Mono', monospace;
-    font-size: 11px;
+    font-size: 12px;
     cursor: pointer;
     text-align: left;
     transition: all 0.2s;
@@ -483,7 +481,7 @@
   .history-date {
     font-family: 'Syne', sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text);
   }
 
@@ -530,7 +528,7 @@
     display: flex;
     gap: 12px;
     margin-bottom: 10px;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.5;
   }
 
@@ -672,12 +670,12 @@
 
   .protocol-name {
     font-family: 'Syne', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     margin-bottom: 2px;
   }
 
-  .protocol-desc { font-size: 10px; color: var(--text-dim); line-height: 1.4; }
+  .protocol-desc { font-size: 12px; color: var(--text-dim); line-height: 1.4; }
 
   @media (max-width: 500px) {
     .signal-grid { grid-template-columns: 1fr; }
